@@ -101,8 +101,52 @@
       background-repeat: no-repeat;
       background-position: 50% 50%;
     }
+/* 네이게이션 */
+.app-navigation{
+  background-color: rgb(42, 42, 45);
+  opacity: 0.9;
+  color:#ffffff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 10px;
+}
 
+.button.is-close-menu{
+order: -1;
+padding: 18px;
+background-color: transparent;
+color: #ffffff;
+}
 
-  
+.app-navigation ul{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.app-navigation li{
+  border-bottom: 1px solid hsla(225, 67%, 94%, 0.5);
+}
+
+.app-navigation a{
+  display: block;
+  padding: 10px;
+  transition: all 0.4s ease;
+}
+
+.app-navigation a:hover,
+.app-navigation a:focus {
+  background: #2e437c;
+  color: rgb(255, 183, 89);
+}
+
 
       
