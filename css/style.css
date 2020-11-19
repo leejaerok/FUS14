@@ -126,10 +126,11 @@ a img {
 }
 
 .app-header .button.is-open-menu .ir {
-  display: block;
+  display: inline-block;
   cursor: pointer;
   width: 26px;
   height: 22px;
+  padding: 33px 28px;
   background: url(../images/navigation-button.gif) no-repeat 50%;
 }
 
