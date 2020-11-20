@@ -155,5 +155,20 @@ color: #ffffff;
   color: rgb(255, 183, 89);
 }
 
+/* 메인 콘텐츠 */
 
+.ediya-menu figure{
+  width: 200px;
+}
+
+.ediya-menu img{
+  max-width: 100%;
+  height: auto;
+}
+
+@media all and (min-width:768px){
+  .app-main{
+    background-color: rgb(247, 100, 218);
+  }
+}
       
